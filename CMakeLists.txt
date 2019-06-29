@@ -3,4 +3,4 @@ project(gifka)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(gifka main.cpp Block.cpp Block.h GIF.cpp GIF.h GIFParser.cpp GIFParser.h)
+add_executable(gifka src/main.cpp src/Block.cpp src/Block.h src/GIF.cpp src/GIF.h src/GIFParser.cpp src/GIFParser.h)
